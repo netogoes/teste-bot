@@ -59,7 +59,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Causs\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=554792091566:+55 47992091566\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=559384215095:+55 9384215095\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '.','!','#'
 blocked = []
@@ -659,7 +659,7 @@ if (text.includes("placa"))
 	
 	if (messagesC.includes("fdp")){
 			client.updatePresence(from, Presence.composing)
-			reply("teu pai")
+			reply("teu pai fdpt")
 	}
 	
 		if (messagesC.includes("corno")){
